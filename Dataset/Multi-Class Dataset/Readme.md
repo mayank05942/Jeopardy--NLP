@@ -2,7 +2,7 @@
 
 <pre>
 
-3 Classes: $200,$1000,$400
-5 Classes: $200,$1000,$400,$800,$600
+3 Classes: $200,$1000,$400 -> 2k each with total 6k samples
+5 Classes: $200,$1000,$400,$800,$600 -> 2k each with total 10k samples
 
 </pre>
