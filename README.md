@@ -33,9 +33,9 @@ Data description
 <pre>
 1- Important features are: Question, Ans and Category
 2- Using these three features -> value is predicted
-3- To generate embeddings fasttext is fine-tuned on pretrained wiki news dataset.
+3- To generate word embeddings -> fasttext model is fine-tuned on pretrained wiki news dataset.
    Pre-trained embeddings downloaded from: https://fasttext.cc/docs/en/english-vectors.html.
-5- To generate sentence vectors from these embeddings concatenated power means apprach is followed.
+5- To generate sentence vectors from these word embeddings -> concatenated power means method is followed.
    Pmeans paper: https://arxiv.org/pdf/1803.01400.pdf
 6- Sentence vectors of "ques","ans" and "category" were concatented together to generate final feature matrix.
 7- Using these feature matrix-> Various ML and DL models were trained.
