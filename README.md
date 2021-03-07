@@ -1,6 +1,6 @@
 # Jeopardy--NLP
 
-<b> Problemn Statement:</b>
+<b> Problem Statement:</b>
 
 <pre> 
 Build a model to predict the value of the question in the TV game show  “Jeopardy!”. 
