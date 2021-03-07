@@ -18,9 +18,10 @@ Data description
 <b> Data Preparation </b>
 
 <pre>
-1- First 100k samples from the datatset were taken
-2- Only samples from Jeopardy round were selected
-3- Standard nlp preprocessing is done: stopwords removal,stemming,lemmatization,lower-casing etc.
+1- First 100k samples from the datatset were taken.
+2- Only samples from Jeopardy round were selected.
+3- Redundant features like 'round','show_number','airdate' were dropped.
+3- Preprocess data : stopwords removal,stemming,lemmatization,lower-casing etc.
 4- Depending upon binary/ multi class classification -> A class balanced dataset was prepared.
 
 </pre>
