@@ -2,7 +2,7 @@
 
 <b> Problemn Statement:</b>
 
-Build a model to predict the value of the question in the TV game show  “Jeopardy!”. 
+<pre> Build a model to predict the value of the question in the TV game show  “Jeopardy!”. 
 oData can be downloaded from this  
 link: https://www.kaggle.com/tunguz/200000-jeopardy-questions 
 oData description 
@@ -16,5 +16,5 @@ picture or video question)
 ▪ round' : one of "Jeopardy!","Double Jeopardy!","Final Jeopardy!"  or "Tiebreaker" (Note: Tiebreaker questions do happen but  
 they're very rare (like once every 20 years)) 
 ▪ 'show_number' : string of show number, e.g '4680' 
-▪ 'air_date' : the show air date in format YYYY-MM-DD 
+▪ 'air_date' : the show air date in format YYYY-MM-DD </pre>
 `
