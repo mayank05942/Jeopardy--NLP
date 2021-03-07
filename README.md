@@ -56,3 +56,4 @@ Fasttext with pmeans->
 ![Optional Text](../master/Images/res.png)
 ![Alt text](relative/Jeopardy--NLP/Images/to/res.png?raw=true "Title")
 ![alt text](https://github.com/mayank05942/Jeopardy--NLP/blob/Images/res.png)
+[[https://github.com/mayank05942/Jeopardy--NLP/blob/master/Images/res.png|alt=res]]
