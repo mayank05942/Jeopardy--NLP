@@ -48,7 +48,7 @@ Data description
 
 Baseline for binary classification: https://github.com/yashajoshi/Predicting-Value-of-Jeopardy-Questions
 
-Best reported metric are: ![alt text](https://github.com/mayank05942/Jeopardy--NLP/blob/Images/res.png?raw=true)
+Best reported metric are: ![result](https://github.com/mayank05942/Jeopardy--NLP/Images/res.png?raw=true)
 
 Fasttext with pmeans->
 
