@@ -14,15 +14,32 @@ Data description
 ▪ round' : one of "Jeopardy!","Double Jeopardy!","Final Jeopardy!"  or "Tiebreaker" (Note: Tiebreaker questions do happen but they're very rare (like once every 20 years)) 
 ▪ 'show_number' : string of show number, e.g '4680' 
 ▪ 'air_date' : the show air date in format YYYY-MM-DD </pre>
-`
-<b> Details: </b>
+
+<b> Data Preparation </b>
+
+<pre>
+1- First 100k samples from the datatset were taken
+2- Only samples from Jeopardy round were selected
+3- Standard nlp preprocessing is done: stopwords removal,stemming,lemmatization,lower-casing etc.
+4- Depending upon binary/ multi class classification -> A class balanced dataset was prepared.
+
+</pre>
+
+
+<b> Approach: </b>
 
 
 <pre>
-1- Jeopardy.ipynb -> Generate modified dataset and generate fastext models for "ques","ans","value".
-2- ML/DL folders contain code for different machine and deep learning codes.
-3- Concatenated power means appraoch was proposed in:
-4- Fasttext model and pre-trained embeddings downloaded from:
+1- Important features are: Question, Ans and Category
+2- Using these three features -> value is predicted
+3- To generate embeddings fasttext is fine-tuned on pretrained wiki news dataset.
+   Pre-trained embeddings downloaded from: https://fasttext.cc/docs/en/english-vectors.html
+5- To generate sentence vectors from these embeddings concatenated power means apprach is followed.
+   Pmeans paper: https://arxiv.org/pdf/1803.01400.pdf
+6- Sentence vectors of "ques","ans" and "category" were concatented together to generate final feature matrix.
+7- Using these feature matrix-> Various ML and DL models were trained.
+    
+
 
 Baseline for binary classification: https://github.com/yashajoshi/Predicting-Value-of-Jeopardy-Questions
 </pre>
