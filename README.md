@@ -1,8 +1,8 @@
 # Jeopardy--NLP
 
-## Problemn Statement:
+<b> Problemn Statement:</b>
 
-`oBuild a model to predict the value of the question in the TV game show  “Jeopardy!”. 
+Build a model to predict the value of the question in the TV game show  “Jeopardy!”. 
 oData can be downloaded from this  
 link: https://www.kaggle.com/tunguz/200000-jeopardy-questions 
 oData description 
