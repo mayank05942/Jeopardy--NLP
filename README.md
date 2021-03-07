@@ -53,4 +53,4 @@ Fasttext with pmeans->
 
 <b> Case B: Multi-class Classification</b>
 </pre>
-![alt text](https://raw.githubusercontent.com/mayank05942/Jeopardy--NLP/blob/Images/res.png)
+![alt text](https://github.com/mayank05942/Jeopardy--NLP/blob/Images/res.png)
