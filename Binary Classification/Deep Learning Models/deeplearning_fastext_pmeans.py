@@ -12,24 +12,21 @@ import p_mean_FT as pmeanFT
 meanlist=['mean','p_mean_2','p_mean_3']
 #meanlist=['mean','min','max']
 #meanlist = ['mean']
+
 import sklearn
 from sklearn.metrics import classification_report
-from sklearn import model_selection, naive_bayes, svm
-from sklearn.metrics import accuracy_score
-from sklearn.svm import LinearSVC, SVC
-from sklearn.pipeline import Pipeline
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.model_selection import GridSearchCV
-from sklearn.ensemble import RandomForestClassifier as RFC
+
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.svm import LinearSVC
-from sklearn.model_selection import cross_val_score
+
 from nltk.corpus import stopwords
 ", ".join(stopwords.words('english'))
-from xgboost import XGBClassifier
+
+import keras
+from keras.models import Sequential
+from keras.layers import Dense, Activation, Dropout
+from keras.optimizers import SGD, RMSprop, Adam
+from sklearn import preprocessing
 #---------------------------------------------------------------------------
 # Reading the modified dataset
 df = pd.read_csv("/home/mayank/Desktop/mod_data.csv").dropna()
@@ -141,12 +138,6 @@ test_data = np.array(test_data)
 
 
 """ Model1: Feed Forward Neural Network"""
-
-import keras
-from keras.models import Sequential
-from keras.layers import Dense, Activation, Dropout
-from keras.optimizers import SGD, RMSprop, Adam
-from sklearn import preprocessing
 
 y_train_ff = keras.utils.to_categorical(y_train, num_classes=2) 
 y_test_ff = keras.utils.to_categorical(y_test, num_classes=2)
