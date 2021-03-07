@@ -39,8 +39,24 @@ Data description
    Pmeans paper: https://arxiv.org/pdf/1803.01400.pdf
 6- Sentence vectors of "ques","ans" and "category" were concatented together to generate final feature matrix.
 7- Using these feature matrix-> Various ML and DL models were trained.
+</pre>
     
+<b> Results </b>
+<pre>
 
+<b> Case A: Binary Classification</b>
 
 Baseline for binary classification: https://github.com/yashajoshi/Predicting-Value-of-Jeopardy-Questions
+
+Best reported metric are:
+
+Fasttext with pmeans->
+
+<b> Case B: Multi-class Classification</b>
+
+
+
+
+
 </pre>
+
