@@ -8,7 +8,7 @@ Class-balanced dataset
 Estimated results: 
 </pre>
       
-<b> Case A </b>
+<b> Case B </b>
 
 <pre>
 5 Classes are chosen: $200,$800,$1200,$400,$600 -> Total 10000 samples, 2000 each
