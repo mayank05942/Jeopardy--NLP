@@ -1,5 +1,6 @@
+<b> Modified Dataset for binary class classification: </b>
 <pre>
-Modified Dataset for binary class classification:
+
 
 Total- 4000 samples
 
