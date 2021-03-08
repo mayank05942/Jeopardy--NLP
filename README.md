@@ -42,7 +42,9 @@ Data description
 </pre>
     
 <b> Results </b>
+
 <b> Case A: Binary Classification</b>
+
 <pre>
 <b>Baseline for binary classification:</b> https://github.com/yashajoshi/Predicting-Value-of-Jeopardy-Questions
 
