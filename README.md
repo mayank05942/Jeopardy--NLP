@@ -42,10 +42,8 @@ Data description
 </pre>
     
 <b> Results </b>
-<pre>
-
 <b> Case A: Binary Classification</b>
-
+<pre>
 <b>Baseline for binary classification:</b> https://github.com/yashajoshi/Predicting-Value-of-Jeopardy-Questions
 
 Best reported metric are:
@@ -58,10 +56,10 @@ Best results by XG Boost classifier with hyperparameters:
 learning_rate = 0.1,max_depth=2,n_estimators= 140,objective="binary:logistic"
 </pre>
 ![](Images/fast_binary.png)
-<pre>
+
 
 <b> Case B: Multi-class Classification</b>
-</pre>
+
 
 <b> 3 Classes: </b>
 
