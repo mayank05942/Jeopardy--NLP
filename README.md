@@ -54,6 +54,8 @@ Best reported metric are:
 <pre>
 
 Fasttext with pmeans->
+Best results by XG Boost classifier with hyperparameters:
+learning_rate = 0.1,max_depth=2,n_estimators= 140,objective="binary:logistic"
 </pre>
 ![](Images/fast_binary.png)
 <pre>
