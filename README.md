@@ -67,7 +67,7 @@ Fasttext with pmeans->
 <pre> learning_rate = 0.1,max_depth=2,n_estimators= 140,objective="multi:softmax" </pre>
 </pre>
 ![](Images/fast_5class.png)
-<pre>
+
  
 
 
