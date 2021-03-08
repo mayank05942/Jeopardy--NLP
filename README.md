@@ -65,7 +65,7 @@ Fasttext with pmeans->
 
 <b> 5 Classes: </b> Best performance is given by XGlearning_rate = 0.1,max_depth=2,n_estimators= 140,objective="multi:softmax" Boost with hyperparamters:
 <pre> learning_rate = 0.1,max_depth=2,n_estimators= 140,objective="multi:softmax" </pre>
-</pre>
+
 ![](Images/fast_5class.png)
 
  
